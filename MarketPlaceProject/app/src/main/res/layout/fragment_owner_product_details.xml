@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="56dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".fragments.OwnerProductDetailsFragment">
+
+        <ImageView
+            android:id="@+id/owner_imageview_owner_published"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/owner_username_owner_published"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintEnd_toStartOf="@+id/upload_date_owner_published"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toEndOf="@+id/owner_imageview_owner_published"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/upload_date_owner_published"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/product_name_owner_published"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/owner_imageview_owner_published"
+            app:layout_constraintTop_toBottomOf="@+id/owner_imageview_owner_published" />
+
+        <ImageView
+            android:id="@+id/edit_owner_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/owner_product_edit_icon"
+            app:layout_constraintEnd_toEndOf="@+id/upload_date_owner_published"
+            app:layout_constraintTop_toBottomOf="@+id/upload_date_owner_published" />
+
+        <TextView
+            android:id="@+id/product_price_owner_published"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/product_name_owner_published"
+            app:layout_constraintTop_toBottomOf="@+id/product_name_owner_published" />
+
+        <ImageView
+            android:id="@+id/availability_icon_owner_published"
+            android:layout_width="35dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/availability_text_owner_published"
+            app:layout_constraintTop_toBottomOf="@+id/edit_owner_product"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/availability_text_owner_published"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            app:layout_constraintEnd_toEndOf="@+id/edit_owner_product"
+            app:layout_constraintTop_toBottomOf="@+id/edit_owner_product" />
+
+        <TextView
+            android:id="@+id/product_detail_owner_published"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/product_price_owner_published"
+            app:layout_constraintTop_toBottomOf="@+id/product_price_owner_published" />
+
+        <TextView
+            android:id="@+id/total_items_circle_textview"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/textview_circle"
+            android:paddingTop="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            app:layout_constraintStart_toStartOf="@+id/product_detail_owner_published"
+            app:layout_constraintTop_toBottomOf="@+id/product_detail_owner_published" />
+
+        <TextView
+            android:id="@+id/total_items_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Total Items"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintStart_toStartOf="@+id/total_items_circle_textview"
+            app:layout_constraintTop_toBottomOf="@+id/total_items_circle_textview" />
+
+        <TextView
+            android:id="@+id/price_per_item_circle_textview"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/textview_circle"
+            android:paddingTop="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            app:layout_constraintStart_toEndOf="@+id/total_items_circle_textview"
+            app:layout_constraintTop_toBottomOf="@+id/product_detail_owner_published" />
+
+        <TextView
+            android:id="@+id/price_per_item_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Price/item"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintStart_toStartOf="@+id/price_per_item_circle_textview"
+            app:layout_constraintTop_toBottomOf="@+id/price_per_item_circle_textview" />
+
+        <TextView
+            android:id="@+id/sold_items_circle_textview"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/textview_circle"
+            android:paddingTop="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            app:layout_constraintStart_toEndOf="@+id/price_per_item_circle_textview"
+            app:layout_constraintTop_toBottomOf="@+id/product_detail_owner_published" />
+
+        <TextView
+            android:id="@+id/sold_items_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sold Items"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintStart_toStartOf="@+id/sold_items_circle_textview"
+            app:layout_constraintTop_toBottomOf="@+id/sold_items_circle_textview" />
+
+        <TextView
+            android:id="@+id/revenue_circle_textview"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textview_circle"
+            android:paddingTop="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/sold_items_circle_textview"
+            app:layout_constraintTop_toBottomOf="@+id/product_detail_owner_published" />
+
+        <TextView
+            android:id="@+id/revenue_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Revenue"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/revenue_circle_textview"
+            app:layout_constraintTop_toBottomOf="@+id/revenue_circle_textview" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

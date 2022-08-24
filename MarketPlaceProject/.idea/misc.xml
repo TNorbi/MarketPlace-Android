@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable-anydpi/ic_active_product.xml" value="0.10854700854700855" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable-anydpi/ic_my_market.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable-v24/ic_bazaar_launcher_foreground.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable/ic_bazaar_appicon.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable/rounded_constraint_layout.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable/textview_circle.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/drawable/textview_circle_darkmode.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout-v23/fragment_my_market.xml" value="0.25416666666666665" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/activity_splash_screen.xml" value="0.20652173913043478" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/customer_item_layout.xml" value="0.536" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_add_product.xml" value="0.4" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_after_forgot_password.xml" value="0.20854700854700856" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_after_new_order_dialog.xml" value="0.30982905982905984" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_after_register.xml" value="0.4" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_forgot_password.xml" value="0.2" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_list.xml" value="0.20854700854700856" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_log_in.xml" value="0.30982905982905984" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_my_fares.xml" value="0.20854700854700856" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_my_market.xml" value="0.4" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_order_now.xml" value="0.30982905982905984" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_order_now_dialog.xml" value="0.2" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_owner_product_details.xml" value="0.2" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_product_details_customer.xml" value="0.3719512195121951" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_profile_owner.xml" value="0.30982905982905984" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_profile_owner_by_others.xml" value="0.264" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_register.xml" value="0.2" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/fragment_timeline.xml" value="0.2" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/item_layout.xml" value="0.14304461942257218" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/layout/owner_item_layout.xml" value="0.3475783475783476" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/menu-v26/bottom_navigation_menu.xml" value="0.20260416666666667" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/menu/toolbar_menu.xml" value="0.2" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/mipmap-anydpi-v26/ic_bazaar_launcher.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/mipmap-anydpi-v26/ic_bazaar_launcher_round.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22179487179487178" />
+        <entry key="..\:/EGYETEMI-DOLGOK/HARMAD_EV/FELEV1/Android_programozas/Repository/Android-InfoIII/MarketPlaceProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22179487179487178" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

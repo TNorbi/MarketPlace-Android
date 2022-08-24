@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/fragmentLogIn">
+    <fragment
+        android:id="@+id/fragmentLogIn"
+        android:name="com.example.marketplaceproject.fragments.FragmentLogIn"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_fragmentLogIn_to_fragmentRegister"
+            app:destination="@id/fragmentRegister" />
+        <action
+            android:id="@+id/action_fragmentLogIn_to_timelineFragment"
+            app:destination="@id/timelineFragment" />
+        <action
+            android:id="@+id/action_fragmentLogIn_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="com.example.marketplaceproject.fragments.FragmentRegister"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_fragmentRegister_to_fragmentLogIn"
+            app:destination="@id/fragmentLogIn" />
+        <action
+            android:id="@+id/action_fragmentRegister_to_afterRegisterFragment"
+            app:destination="@id/afterRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timelineFragment"
+        android:name="com.example.marketplaceproject.fragments.TimeLineFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_timeline" >
+        <action
+            android:id="@+id/action_timelineFragment_to_productDetailsCustomerFragment"
+            app:destination="@id/productDetailsCustomerFragment" />
+        <action
+            android:id="@+id/action_timelineFragment_to_profileOwnerFragment"
+            app:destination="@id/profileOwnerFragment" />
+        <action
+            android:id="@+id/action_timelineFragment_to_myMarketFragment"
+            app:destination="@id/myMarketFragment" />
+        <action
+            android:id="@+id/action_timelineFragment_to_ownerProductDetailsFragment"
+            app:destination="@id/ownerProductDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/afterRegisterFragment"
+        android:name="com.example.marketplaceproject.fragments.AfterRegisterFragment"
+        android:label="fragment_after_register"
+        tools:layout="@layout/fragment_after_register" >
+        <action
+            android:id="@+id/action_afterRegisterFragment_to_fragmentLogIn"
+            app:destination="@id/fragmentLogIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailsCustomerFragment"
+        android:name="com.example.marketplaceproject.fragments.ProductDetailsCustomerFragment"
+        android:label="fragment_product_details_customer"
+        tools:layout="@layout/fragment_product_details_customer" >
+        <action
+            android:id="@+id/action_productDetailsCustomerFragment_to_profileOwnerFragment"
+            app:destination="@id/profileOwnerFragment" />
+        <action
+            android:id="@+id/action_productDetailsCustomerFragment_to_profileOwnerByOthersFragment"
+            app:destination="@id/profileOwnerByOthersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileOwnerFragment"
+        android:name="com.example.marketplaceproject.fragments.ProfileOwnerFragment"
+        android:label="fragment_profile_owner"
+        tools:layout="@layout/fragment_profile_owner" >
+        <action
+            android:id="@+id/action_profileOwnerFragment_self"
+            app:destination="@id/profileOwnerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileOwnerByOthersFragment"
+        android:name="com.example.marketplaceproject.fragments.ProfileOwnerByOthersFragment"
+        android:label="fragment_profile_owner_by_others"
+        tools:layout="@layout/fragment_profile_owner_by_others" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.marketplaceproject.fragments.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_afterForgotPasswordFragment"
+            app:destination="@id/afterForgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/afterForgotPasswordFragment"
+        android:name="com.example.marketplaceproject.fragments.AfterForgotPasswordFragment"
+        android:label="fragment_after_forgot_password"
+        tools:layout="@layout/fragment_after_forgot_password" >
+        <action
+            android:id="@+id/action_afterForgotPasswordFragment_to_fragmentLogIn"
+            app:destination="@id/fragmentLogIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/myMarketFragment"
+        android:name="com.example.marketplaceproject.fragments.MyMarketFragment"
+        android:label="fragment_my_market"
+        tools:layout="@layout/fragment_my_market" >
+        <action
+            android:id="@+id/action_myMarketFragment_to_profileOwnerFragment"
+            app:destination="@id/profileOwnerFragment" />
+        <action
+            android:id="@+id/action_myMarketFragment_to_timelineFragment"
+            app:destination="@id/timelineFragment" />
+        <action
+            android:id="@+id/action_myMarketFragment_to_ownerProductDetailsFragment"
+            app:destination="@id/ownerProductDetailsFragment" />
+        <action
+            android:id="@+id/action_myMarketFragment_to_addProductFragment"
+            app:destination="@id/addProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ownerProductDetailsFragment"
+        android:name="com.example.marketplaceproject.fragments.OwnerProductDetailsFragment"
+        android:label="fragment_owner_product_details"
+        tools:layout="@layout/fragment_owner_product_details" >
+        <action
+            android:id="@+id/action_ownerProductDetailsFragment_to_addProductFragment"
+            app:destination="@id/addProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.example.marketplaceproject.fragments.AddProductFragment"
+        android:label="fragment_add_product"
+        tools:layout="@layout/fragment_add_product" >
+        <action
+            android:id="@+id/action_addProductFragment_to_myMarketFragment"
+            app:destination="@id/myMarketFragment" />
+        <action
+            android:id="@+id/action_addProductFragment_to_ownerProductDetailsFragment"
+            app:destination="@id/ownerProductDetailsFragment" />
+    </fragment>
+</navigation>

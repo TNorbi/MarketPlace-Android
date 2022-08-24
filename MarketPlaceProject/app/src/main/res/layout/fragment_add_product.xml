@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="56dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".fragments.AddProductFragment">
+
+        <TextView
+            android:id="@+id/avability_date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/upload_product_date_label_text"
+            android:textColor="?android:attr/textColorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/availability_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="16dp"
+            android:layoutDirection="rtl"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="Inactive"
+            android:textColor="#9A9A9A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/details_fare_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Give us details about your fare"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/availability_switch"
+            app:layout_constraintTop_toBottomOf="@+id/availability_switch" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/title_input_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Title"
+            app:boxBackgroundColor="?attr/boxBackgroundColor"
+            app:boxStrokeColor="?android:attr/textColorPrimary"
+            app:counterEnabled="true"
+            app:counterMaxLength="30"
+            app:hintTextColor="@color/teal_200"
+            app:layout_constraintStart_toStartOf="@+id/details_fare_label"
+            app:layout_constraintTop_toBottomOf="@+id/details_fare_label">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/title_input_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:textColor="?android:attr/textColorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/price_amount_textinput_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Price/amount"
+            app:boxBackgroundColor="?attr/boxBackgroundColor"
+            app:boxStrokeColor="?android:attr/textColorPrimary"
+            app:counterEnabled="true"
+            app:counterMaxLength="10"
+            app:hintTextColor="@color/teal_200"
+            app:layout_constraintStart_toStartOf="@+id/title_input_layout"
+            app:layout_constraintTop_toBottomOf="@+id/title_input_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/price_amount_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="?android:attr/textColorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/price_type_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginTop="40dp"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.481"
+            app:layout_constraintStart_toEndOf="@+id/price_amount_textinput_layout"
+            app:layout_constraintTop_toBottomOf="@+id/title_input_layout"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/available_amount_textinput_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Available amount"
+            app:boxBackgroundColor="?attr/boxBackgroundColor"
+            app:boxStrokeColor="?android:attr/textColorPrimary"
+            app:counterEnabled="true"
+            app:counterMaxLength="10"
+            app:hintTextColor="@color/teal_200"
+            app:layout_constraintStart_toStartOf="@+id/price_amount_textinput_layout"
+            app:layout_constraintTop_toBottomOf="@+id/price_amount_textinput_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/available_amount_textinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:textColor="?android:attr/textColorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/product_description_input_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Short description"
+            app:boxBackgroundColor="?attr/boxBackgroundColor"
+            app:boxStrokeColor="?android:attr/textColorPrimary"
+            app:counterEnabled="true"
+            app:counterMaxLength="150"
+            app:hintTextColor="@color/teal_200"
+            app:layout_constraintStart_toStartOf="@+id/available_amount_textinput_layout"
+            app:layout_constraintTop_toBottomOf="@+id/available_amount_textinput_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/product_description_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="150"
+                android:textColor="?android:attr/textColorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/preview_my_fair_button"
+            android:layout_width="348dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Preview my fair"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/product_description_input_layout" />
+
+        <Button
+            android:id="@+id/launch_fair_button"
+            android:layout_width="348dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Launch my fair"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/preview_my_fair_button"
+            app:layout_constraintVertical_bias="0.166" />
+
+        <Spinner
+            android:id="@+id/available_amount_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/available_amount_textinput_layout"
+            app:layout_constraintTop_toBottomOf="@+id/price_amount_textinput_layout"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

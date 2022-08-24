@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/timelineFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_bazaar_bottom_menu_logo"
+        android:title="@string/timeline_text"/>
+    <item
+        android:id="@+id/myMarketFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_my_market"
+        android:title="@string/my_market_text"/>
+
+    <item
+        android:id="@+id/my_fares"
+        android:enabled="true"
+        android:icon="@drawable/ic_my_fares"
+        android:title="@string/my_fares_text"/>
+</menu>
